@@ -1370,3 +1370,15 @@ a {
 .ficons{
   font-size: 1.5rem;
 }
+
+.block-4-image img{
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.grid-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
