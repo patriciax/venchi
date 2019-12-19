@@ -1354,6 +1354,15 @@ a {
   opacity: 0.75;
 }
 
+.bg-green{
+  background: #abc92a;
+  color: #fff;
+}
+
+.bg-green h3 a{
+  color: #fff;
+}
+
 .mask{
   position: absolute;
   background: #3463ad4d;
