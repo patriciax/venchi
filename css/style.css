@@ -114,6 +114,10 @@ a:hover {
   .site-section {
     padding: 5em 0;
   }
+
+
+
+
 }
 .site-section.site-section-sm {
   padding: 4em 0;
@@ -1391,3 +1395,14 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .grid-product{
+    grid-template-columns: 100%;
+  }
+  .parrallax {
+    padding: 0;
+
+    height: 400px;
+}
+ }
